@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #efe4d2;
+  margin: auto;
+  width: 95%;
+  max-width: 960px;
+  min-width: 640px;
+}
+
+/* FLOATING STYLES*/
+.column {
+  float: left;
+  padding: 10px;
+  height: 780px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 0;
+}
+section#leftside {
+  background-color: #646061;
+  width: 30%;
+}
+
+section#leftside > h2 {
+  text-align: center;
+  font-size: 30pt;
+  color: white;
+}
+section#leftside > ol {
+  padding-left: 10%;
+  list-style-position: inside;
+  color: #efe4d2;
+}
+
+section#rightside {
+  background-color: #8fbf9f;
+  width: 70%;
+}
+section#rightside a img {
+  display: inline;
+  margin-top: 10%;
+  width: 150px;
+  height: 100px;
+  border: 4pt solid #1e1727;
+}
+section#rightside img {
+  display: block;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border: 4pt solid #1e1727;
+}
+#MusicList {
+  font-size: 30pt;
+  list-style: none;
+  color: #523142;
+  font-weight: bolder;
+  margin: 50px 0 50px 0;
+}
+
+.musicLink {
+  font-size: 20pt;
+  margin: 20px 0 20px 0;
+}
+
+section#leftside > img {
+  display: block;
+  margin-top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border: 3px solid #523142;
+}
+
+section#rightside > h2 {
+  font-size: 30pt;
+  padding-left: 20%;
+}
+
+section#rightside > ol {
+  padding-left: 20%;
+  list-style-position: inside;
+}
+
+/*THE REST*/
+
+section#rightside ol li {
+  font-size: 24pt;
+}
+section#leftside ol li {
+  font-size: 20pt;
+}
+
+section ul li {
+  font-size: 18pt;
+}
+
+section > p {
+  margin-top: 50px;
+  font-size: 24pt;
+  font-family: "Brush Script MT", cursive;
+  text-align: left;
+  color: #efe4d2;
+}
+
+Header > h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 3em;
+  padding: 10px 0 10px 0;
+  color: #8fbf9f;
+  border-top: 3px solid #8fbf9f;
+  border-left: 3px solid #8fbf9f;
+  border-right: 3px solid #8fbf9f;
+  background-color: #1e1727;
+  margin-bottom: 0;
+}
+div {
+  border-left: 3px solid #1e1727;
+  border-right: 3px solid #1e1727;
+}
+nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+nav > ul {
+  text-align: center;
+  background-color: #bfb08f;
+  padding: 8px;
+  border-top: 3px solid #8fbf9f;
+  border-bottom: 3px solid #523142;
+  border-left: 3px solid #523142;
+  border-right: 3px solid #8fbf9f;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+nav > Ul > li {
+  display: inline;
+  text-align: Center;
+  padding: 8px 20px;
+  background-color: #523142;
+  margin: 0 20px;
+  border: 1px outset black;
+}
+aside {
+  text-align: center;
+  margin: 200px 0 0 0;
+  font-size: 40pt;
+  background-color: #efe4d2;
+  border: 10px outset #523142;
+}
+
+aside > a:link {
+  color: #8fbf9f;
+}
+aside > a:visited {
+  color: #8fbf9f;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  margin: auto;
+  width: 95%;
+  max-width: 960px;
+  min-width: 640px;
+  position: fixed;
+  bottom: 0;
+  clear: left;
+  text-align: center;
+  margin-top: 30px;
+  border-top: 2px solid #523142;
+  border-left: 2px solid #523142;
+  border-right: 2px solid #523142;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+    sans-serif;
+  background-color: #bfb08f;
+}
